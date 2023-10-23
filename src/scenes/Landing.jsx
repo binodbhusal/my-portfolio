@@ -61,7 +61,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="mt-10 mb-7 text-xl text-center md:text-start">
-            I am full stack passionate developer with impressive IT credentials,
+            Hello friends, I am full stack passionate developer with impressive IT credentials,
             a keen eye for detail and a love for problem-solving. I am constantly striving to
             improve my skills and embrace new technologies. When I am not coding, you can find me
             hiking in the great outdoors or immersed in a good book.
@@ -106,6 +106,7 @@ const Landing = ({ setSelectedPage }) => {
           <SocialMediaIcons />
         </motion.div>
       </div>
+
     </section>
   );
 };
