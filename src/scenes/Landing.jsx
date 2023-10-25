@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion';
-import PropTypes from 'prop-types';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
 import SocialMediaIcons from '../components/SocialMediaIcons';
 
-const Landing = ({ setSelectedPage }) => {
+const Landing = () => {
   const isAboveLargeScreens = useMediaQuery('(min-width:1060px)');
 
   return (
@@ -86,7 +85,6 @@ const Landing = ({ setSelectedPage }) => {
           <AnchorLink
             className="bg-gradient-rainblue text-deep-blue rounded-lg py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500"
-            onClick={() => setSelectedPage('contact')}
             href="#contact"
           >
             Get in touch
@@ -109,9 +107,6 @@ const Landing = ({ setSelectedPage }) => {
 
     </section>
   );
-};
-Landing.propTypes = {
-  setSelectedPage: PropTypes.func.isRequired, // Add prop validation for setSelectedPage
 };
 
 export default Landing;
