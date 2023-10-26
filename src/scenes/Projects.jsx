@@ -1,10 +1,11 @@
+/* eslint-disable import/extensions */
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-import ProjectData from '../components/ProjectData';
+import ProjectData from '../components/ProjectData.js';
 
-import Line from '../components/Line';
+import Line from '../components/Line.jsx';
 
 const Projects = () => {
   const [hoveredIndex] = useState(null);
@@ -33,8 +34,8 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-7 text-lg">
-          With a proven track record of developing highly efficient software
-          applications for the global market.
+          Having a well-demonstrated history
+          of crafting exceptionally efficient web applications for the worldwide market.
         </p>
       </motion.div>
       {/* projects section  */}
