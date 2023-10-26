@@ -1,70 +1,136 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 📖 [Portfolio] <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**[Portfolio]** project showcases my skills and previous work. It typically includes a homepage of my introduction, a section detailing my past projects, a section detailing my technical skills and areas of expertise, and a way to contact me. The website has a clean and professional design, is mobile-responsive, and is optimised for search engines.
 
-### `npm run build`
+## 🛠 React <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  JavaScript, React, Tailwind CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- **[Personal information, skills and previous project works]**
+- **[Responsive]**
+- **[Graphic user interface friendly]**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get a local copy up and running, follow these steps.
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to run this project you need:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Knowledge of React, HTML, CSS
+2. VSCode or other text editor installed. [Link to Download VSCode](https://code.visualstudio.com/download)
+3. Node package. [Link to Download Node](https://nodejs.org/en/download)
+4. npm install and npm start
 
-### Code Splitting
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Clone this repository to your desired folder:
 
-### Analyzing the Bundle Size
+    Git clone:(https://github.com/binodbhusal/myportfolio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Navigate to the location of the folder in your machine:
 
-### Making a Progressive Web App
+    you@your-Pc-name:~$ cd myportfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Install
 
-### Advanced Configuration
+Install this project with:
+- use command npm install .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Usage
+To run the project, follow these instructions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  npm start
 
-### `npm run build` fails to minify
+### Run tests
+To run tests, run the following command:
+- Track HTML linter errors run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npx hint .
+
+- Track CSS linter errors run:
+
+npx stylelint "**/*.{css,scss}"
+
+- Track JavaScript linter errors run:
+
+npx eslint .
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Binod Bhusal**
+
+- GitHub: [@githubhandle](https://github.com/binodbhusal)
+- Twitter: [@twitterhandle](https://twitter.com/Binod_ironLad)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/binodbhusal)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[New React componet will be added]**
+- [ ] **[More interactive]**
+- [ ] **[Latest projects will be added]**
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/binodbhusal/myportfolio/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project  please feel free to contact me for any kind of support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank reviewer.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
