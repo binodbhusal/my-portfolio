@@ -1,6 +1,7 @@
 import {
-  FaLinkedin, FaGithub, FaTwitter, FaMedium,
+  FaLinkedin, FaGithub, FaMedium,
 } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const SocialMediaIcons = () => (
   <div className="flex justify-center md:justify-start my-10 gap-7">
@@ -26,7 +27,7 @@ const SocialMediaIcons = () => (
       target="_blank"
       rel="noreferrer"
     >
-      <FaTwitter size={32} />
+      <FaXTwitter size={32} />
     </a>
     <a
       className="hover:opacity-50 transition duration-500"
