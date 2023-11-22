@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 import PropTypes from 'prop-types';
 import useMediaQuery from '../hooks/useMediaQuery';
 
