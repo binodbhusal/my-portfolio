@@ -21,7 +21,7 @@ const Landing = () => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[300px]"
-              src="assets/profile-image1.png"
+              src="assets/profile-image1.AVIF"
             />
           </div>
         ) : (
@@ -29,7 +29,7 @@ const Landing = () => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
-              src="assets/profile-image1.png"
+              src="assets/profile-image1.AVIF"
             />
           </div>
         )}
