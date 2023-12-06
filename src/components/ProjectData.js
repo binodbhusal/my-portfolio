@@ -1,4 +1,12 @@
 const ProjectData = [
+  {
+    title: 'MOTORHUB',
+    description: 'Web application designed to provide users with the ability to reserve, view, and manage motors such as cars and bikes reservation for purchases. ',
+    imageUrl: './assets/motofinal.AVIF',
+    tech: 'Rails, React, Redux',
+    seelivelink: 'https://motorhub.netlify.app/',
+    seesourcelink: 'https://github.com/binodbhusal/motorhub_backend.git',
+  },
 
   {
     title: 'CRYPTOFY',
