@@ -1,5 +1,21 @@
 const ProjectData = [
   {
+    title: 'ONBOOKING',
+    description: 'OnBooking is a comprehensive accommodation booking platform like Airbnb designed to provide users with a seamless experience in finding and booking their ideal accommodations.',
+    imageUrl: './assets/onbooking.AVIF',
+    tech: 'Rails, JavaScript, TailwindCSS',
+    seelivelink: 'https://onbooking-1ceff53c6093.herokuapp.com/',
+    seesourcelink: 'https://github.com/binodbhusal/onbooking',
+  },
+  {
+    title: 'AMAZON CLONE',
+    description: 'The Amazon Clone is a comprehensive E-commerce web application inspired by the renowned Amazon online marketplace.',
+    imageUrl: './assets/amazon_clone.AVIF',
+    tech: 'React, Firebase, Redux, TailwindCSS',
+    seelivelink: 'https://clone-1b966.web.app/',
+    seesourcelink: 'https://github.com/binodbhusal/amazon-clone',
+  },
+  {
     title: 'MOTORHUB',
     description: 'Web application designed to provide users with the ability to reserve, view, and manage motors such as cars and bikes reservation for purchases. ',
     imageUrl: './assets/motofinal.AVIF',
@@ -40,14 +56,6 @@ const ProjectData = [
     tech: 'Rails, HTML/CSS',
     seelivelink: 'https://blogapp-5efk.onrender.com',
     seesourcelink: 'https://github.com/binodbhusal/BlogApp',
-  },
-  {
-    title: 'MOVIE HUB',
-    description: 'Web application, enabling users to interact with movie data, and engage in movie-related activities such as commenting and liking.',
-    imageUrl: './assets/moviehub1.AVIF',
-    tech: 'React, Redux, JavaScript, HTML/CSS',
-    seelivelink: 'https://jojo987n.github.io/Moviehub-Webapp/dist/',
-    seesourcelink: 'https://github.com/jojo987N/Moviehub-Webapp',
   },
 ];
 export default ProjectData;

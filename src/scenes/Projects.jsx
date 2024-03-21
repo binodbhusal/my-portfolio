@@ -39,7 +39,7 @@ const Projects = () => {
         </p>
       </motion.div>
       {/* projects section  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
         {ProjectData.map((project, index) => (
           <motion.div
             key={index}
@@ -65,19 +65,19 @@ const Projects = () => {
                   hover:opacity-90 transition duration-500 
                   transform ${hoveredIndex === index ? 'scaleY(1)' : 'scaleY(0)'}`}
                 >
-                  <p className="text-gray-200 mt-2 p-4">
+                  <p className="text-gray-200 mt-2 p-4 text-pretty line-clamp-2 pb-1 mt-8">
                     {project.description}
                   </p>
-                  <div className="p-4">
-                    <p className="absolute top-40 left-1/2 transform -translate-x-1/2 w-80 text-sm font-semibold bg-grey text-red py-1 rounded-lg text-center">
+                  <div className="p-4 text-center">
+                    <p className="w-80 mx-auto justext-sm font-semibold bg-grey text-red py-1 rounded-lg">
 
                       {' '}
                       {project.tech}
                     </p>
-                    <div className="mt-2">
+                    <div className="pt-6 flex justify-evenly lg:justify-between">
                       <a
                         href={project.seelivelink}
-                        className="absolute bottom-1 left-16 text-blue-500 hover:bg-blue transition duration-500
+                        className="text-blue-500 hover:bg-blue transition duration-500
                         text-gray-200 bg-red py-1 px-3 rounded-xl items-center"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -87,7 +87,7 @@ const Projects = () => {
 
                       <a
                         href={project.seesourcelink}
-                        className="absolute bottom-1  right-16 text-blue-500  hover:bg-blue ml-4 text-gray-200 bg-red py-1 px-2
+                        className="text-blue-500  hover:bg-blue ml-4 text-gray-200 bg-red py-1 px-2
                          rounded-xl text-center transition duration-500"
                         target="_blank"
                         rel="noopener noreferrer"
