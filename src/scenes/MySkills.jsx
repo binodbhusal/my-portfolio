@@ -44,7 +44,7 @@ const MySkills = () => {
           <a
             className="bg-gradient-rainblue text-deep-blue rounded-lg py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500"
-            href="./assets/binod_resume_final.pdf"
+            href="./assets/Binod_Bhusal_Resume.pdf"
             target="_blank"
             rel="noreferrer"
           >

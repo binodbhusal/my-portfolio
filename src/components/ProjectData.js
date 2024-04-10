@@ -23,7 +23,14 @@ const ProjectData = [
     seelivelink: 'https://motorhub.netlify.app/',
     seesourcelink: 'https://github.com/binodbhusal/motorhub_backend.git',
   },
-
+  {
+    title: 'iTALK',
+    description: 'This project utilizes cutting-edge technologies including Next.js and TypeScript to emulate the functionality of Zoom, a popular video conferencing platform.',
+    imageUrl: './assets/italk1.AVIF',
+    tech: 'Next.js, TypeScript, React, Tailwind CSS',
+    seelivelink: 'https://italk-sand.vercel.app/',
+    seesourcelink: 'https://github.com/binodbhusal/italk',
+  },
   {
     title: 'CRYPTOFY',
     description: 'Web application that provides users with a comprehensive view of various cryptocurrency exchanges and their trading data.',
@@ -41,14 +48,6 @@ const ProjectData = [
     seesourcelink: 'https://github.com/binodbhusal/BudgetApp',
   },
 
-  {
-    title: 'SPACEHUB',
-    description: 'Web application that provides information and services related to space exploration.',
-    imageUrl: './assets/spacehub12.AVIF',
-    tech: 'React, Redux, HTML/CSS',
-    seelivelink: 'https://spacehub-cbgn.onrender.com/',
-    seesourcelink: 'https://github.com/binodbhusal/spacehub',
-  },
   {
     title: 'BLOG APP',
     description: 'BlogApp allows users to create personalized profiles where they can showcae their information, including a profile photo and breif bio. Users can create, edit and delete their own blog posts.',
