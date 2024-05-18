@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import useMediaQuery from './hooks/useMediaQuery';
 import Navbar from './scenes/Navbar';
 import DotGroup from './scenes/DotGroup';
@@ -24,6 +26,12 @@ function App() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      delay: 400,
+    });
+  });
   return (
     <div className="app bg-deep-blue">
 
@@ -49,6 +57,7 @@ function App() {
       <div className="w-5/6 mx-auto">
         <Projects />
       </div>
+      <Line />
       <div className="w-5/6 mx-auto">
         <Contact />
       </div>

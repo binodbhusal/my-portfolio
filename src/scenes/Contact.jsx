@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { useForm } from 'react-hook-form';
-import { motion } from 'framer-motion';
 import Line from '../components/Line';
 
 const Contact = () => {
@@ -16,19 +15,17 @@ const Contact = () => {
     }
   };
   return (
-    <section id="contact" className="contact py-48">
+    <section
+      id="contact"
+      className="contact py-48"
+    >
       {/* headings */}
 
-      <motion.div
+      <div
         className="flex justify-end w-full"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.4, duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, y: 50 },
-          visible: { opacity: 1, y: 0 },
-        }}
+        data-aos="fade-down"
+        data-aos-delay="400"
+        data-aos-duration="1000"
       >
         <div>
           <p className="font-playfair font-semibold text-4xl mb-5">
@@ -36,34 +33,31 @@ const Contact = () => {
             TO GET STARTED
           </p>
           <div className="flex md:justify-end  my-5">
-            <Line width="w-1/2" />
+            <Line
+              width="w-1/2"
+            />
           </div>
         </div>
-      </motion.div>
-      <div className="md:flex md:justify-between gap-16">
-        <motion.div
+      </div>
+      <div
+        className="md:flex md:justify-between gap-16"
+      >
+        <div
           className="basis-1/2 flex justify-center"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
         >
-          <img src="./assets/contact-img.svg" alt="contact" />
-        </motion.div>
-        <motion.div
+          <img
+            src="./assets/contactmeimg.AVIF"
+            alt="contact"
+            className="rounded-tr-[40px] rounded-bl-[40px] opacity-60 object-cover"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          />
+        </div>
+        <div
           className="basis-1/2 mt-10 md:mt-0"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-offset="200"
         >
           <form
             target="_blank"
@@ -125,13 +119,13 @@ const Contact = () => {
             )}
             <button
               type="submit"
-              className="py-2 px-5 rounded-xl bg-yellow text-deep-blue hover:bg-red hover:text-white transition duration-500"
+              className="py-2 px-5 mt-4 rounded-xl bg-yellow text-deep-blue hover:bg-red hover:text-white transition duration-500"
             >
               Get in touch
 
             </button>
           </form>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
