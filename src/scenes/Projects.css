@@ -127,7 +127,6 @@
   transition: all 0.5s ease-in-out;
   transform: translateY(7rem);
   -webkit-transform: translateY(7rem);
-  filter: invert(1);
   will-change: transform;
   display: flex;
   flex-direction: column;
