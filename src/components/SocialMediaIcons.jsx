@@ -10,6 +10,7 @@ const SocialMediaIcons = () => (
       href="https://www.linkedin.com/in/binodbhusal/"
       target="_blank"
       rel="noreferrer"
+      aria-label="LinkedIn profile"
     >
       <FaLinkedin size={32} />
     </a>
@@ -18,6 +19,8 @@ const SocialMediaIcons = () => (
       href="https://github.com/binodbhusal"
       target="_blank"
       rel="noreferrer"
+      aria-label="Github profile"
+
     >
       <FaGithub size={32} />
     </a>
@@ -26,6 +29,7 @@ const SocialMediaIcons = () => (
       href="https://twitter.com/Binod_ironLad"
       target="_blank"
       rel="noreferrer"
+      aria-label="Twitter profile"
     >
       <FaXTwitter size={32} />
     </a>
@@ -34,6 +38,7 @@ const SocialMediaIcons = () => (
       href="https://medium.com/@binodreal1982"
       target="_blank"
       rel="noreferrer"
+      aria-label="Medium profile"
     >
       <FaMedium size={32} />
     </a>
