@@ -41,3 +41,13 @@ body,
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@keyframes fadeInBg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
