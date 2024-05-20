@@ -35,6 +35,7 @@ const MySkills = () => (
           rel="noreferrer"
           data-aos="fade-down-right"
           data-aos-delay="150"
+          data-aos-offset="200"
         >
           Get My Resume
         </a>
@@ -51,6 +52,7 @@ const MySkills = () => (
           src="assets/skills4.jpg"
           data-aos="fade-up"
           data-aos-delay="200"
+          data-aos-offset="200"
         />
 
       </div>

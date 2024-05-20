@@ -14,7 +14,13 @@ const Skills = () => (
 
     <div className="relative w-full h-full flex items-center flex-col">
       <div className="flex flex-wrap justify-center gap-8 mt-12 w-full max-w-[75rem] px-4">
-        <div className="frontEnd" data-aos="fade-down-right" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true">
+        <div
+          className="frontEnd"
+          data-aos="fade-down"
+          data-aos-delay="100"
+          data-aos-once="true"
+          data-aos-offset="200"
+        >
           <div className="flex flex-col items-center rounded-[31px] bg-gradient-to-b from-white-10 to-black-65 border-2 border-gray-700 shadow-xl backdrop-filter backdrop-blur-[4px] py-4 px-6 min-h-[23rem] w-full max-w-[28rem] text-center">
             <h2 className="animate-glow text-xl md:text-2xl font-bold pb-4 md:pb-0">front-end</h2>
             <p className="h-[6rem] flex justify-center items-center">
@@ -45,7 +51,12 @@ const Skills = () => (
             </div>
           </div>
         </div>
-        <div className="backEnd" data-aos="fade-down-left" data-aos-delay="500" data-aos-duration="1000" data-aos-once="true">
+        <div
+          className="backEnd"
+          data-aos="fade-down"
+          data-aos-delay="100"
+          data-aos-once="true"
+        >
           <div className="flex flex-col items-center rounded-[31px] bg-gradient-to-b from-white-10 to-black-65 border-2 border-gray-700 shadow-xl backdrop-filter backdrop-blur-[4px] py-4 px-6 min-h-[23rem] w-full max-w-[28rem] text-center">
             <h2 className="animate-glow text-xl md:text-2xl font-bold pb-4 md:pb-0">back-end</h2>
             <p className="h-[6rem] flex justify-center items-center">
@@ -76,7 +87,12 @@ const Skills = () => (
             </div>
           </div>
         </div>
-        <div className="tools " data-aos="fade-up" data-aos-delay="600" data-aos-duration="1200" data-aos-once="true">
+        <div
+          className="tools "
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-once="true"
+        >
           <div className="flex flex-col items-center rounded-[31px] bg-gradient-to-b from-white-10 to-black-65 border-2 border-gray-700 shadow-xl backdrop-filter backdrop-blur-[4px] py-4 px-6 min-h-[23rem] w-full max-w-[28rem] text-center">
             <h2 className="animate-glow text-xl pb-6 md:text-2xl font-bold  md:pb-0">design & tools</h2>
             <p className="h-[6rem] flex justify-center items-center pt-3 mb-6 md:mb-0">

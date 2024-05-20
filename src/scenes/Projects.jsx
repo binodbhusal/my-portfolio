@@ -41,14 +41,12 @@ const Projects = () => {
             width="w-1/3"
             data-aos="fade-up"
             data-aos-delay="300"
-            data-aos-duration="1000"
           />
         </div>
         <p
           className="mt-10 mb-7 text-lg"
-          data-aos="fade-right"
-          data-aos-delay="300"
-          data-aos-duration="1000"
+          data-aos="fade-up"
+          data-aos-delay="200"
           data-aos-offset="200"
         >
           Having a well-demonstrated history
