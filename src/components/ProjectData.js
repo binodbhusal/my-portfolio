@@ -4,7 +4,7 @@ const ProjectData = [
     description: 'OnBooking, an Airbnb-like platform, aims to offer a seamless experience in finding and booking accommodations.',
     imageUrl: 'https://i.imgur.com/jB76SHz.png',
     tech: ['Rails', 'JavaScript', 'TailwindCSS'],
-    seelivelink: 'https://onbooking-1ceff53c6093.herokuapp.com/',
+    seelivelink: 'https://onbooking-production.up.railway.app/',
     seesourcelink: 'https://github.com/binodbhusal/onbooking',
     gallery: ['https://i.imgur.com/5DRMI2Q.png', 'https://i.imgur.com/hNSMECQ.png', 'https://i.imgur.com/CZFfo97.png', 'https://i.imgur.com/IR8F3Jr.png', 'https://i.imgur.com/s8FXY3n.png', 'https://i.imgur.com/NLpk6gj.png', 'https://i.imgur.com/Ms67x4L.png'],
     id: '1',
