@@ -1,5 +1,15 @@
 const ProjectData = [
   {
+    title: 'COOKGPT',
+    description: 'CookGPT is an AI-driven culinary companion, offering personalized recipes, detailed cooking guides, and intuitive tools to make meal creation simple and enjoyable.',
+    imageUrl: 'https://i.imgur.com/oClGuMg.jpeg',
+    tech: ['NextJS', 'TypeScript', 'TailwindCSS'],
+    seelivelink: 'https://www.cookgpt.io/',
+    seesourcelink: 'https://github.com/binodbhusal/cookgpt-2.0',
+    gallery: ['https://i.imgur.com/oClGuMg.jpeg', 'https://i.imgur.com/ZD8BYTY.jpeg', 'https://i.imgur.com/1d9V6AW.jpeg', 'https://i.imgur.com/18hMivt.jpeg', 'https://i.imgur.com/uBTfhp4.jpeg'],
+    id: '3',
+  },
+  {
     title: 'ONBOOKING',
     description: 'OnBooking, an Airbnb-like platform, aims to offer a seamless experience in finding and booking accommodations.',
     imageUrl: 'https://i.imgur.com/jB76SHz.png',
@@ -19,16 +29,7 @@ const ProjectData = [
     gallery: ['https://i.imgur.com/haQtodF.png', 'https://i.imgur.com/uTvXDBg.png', ' https://i.imgur.com/8lNJoCQ.png', 'https://i.imgur.com/17loXix.png', 'https://i.imgur.com/LIbFhNr.png', 'https://i.imgur.com/vxEivfc.png'],
     id: '2',
   },
-  {
-    title: 'MOTORHUB',
-    description: 'Web application designed to provide users with the ability to reserve, view, and manage motors such as cars and bikes reservation for purchases. ',
-    imageUrl: 'https://i.imgur.com/9UGHubA.png',
-    tech: ['Rails', 'React', 'Redux'],
-    seelivelink: 'https://motorhub.netlify.app/',
-    seesourcelink: 'https://github.com/binodbhusal/motorhub_backend.git',
-    gallery: ['https://i.imgur.com/5exwNkd.png', 'https://i.imgur.com/oWm3rPq.png', 'https://i.imgur.com/Ux5sHHq.png', 'https://i.imgur.com/umCgXA2.jpeg', 'https://i.imgur.com/cAivKP0.png'],
-    id: '3',
-  },
+
   {
     title: 'VR LANDING PAGE',
     description: 'VR Landing Page is an immersive VR landing page experience that introduces users to the world of virtual reality.',
